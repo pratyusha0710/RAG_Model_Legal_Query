@@ -1,4 +1,4 @@
-## RAG-Based Legal Query Assistant
+# RAG-Based Legal Query Assistant
 
  This project investigates and compares two different Retrieval-Augmented Generation (RAG) architectures for answering questions based on legal documents. The primary goal is to analyze the trade-offs between a "Naive RAG" system and a more complex "Agentic RAG" system that includes a self-correction loop.
 
@@ -14,7 +14,7 @@ If "GOOD" -> Return Answer
 
 If "BAD" -> Refine Query -> Retrieve -> Generate -> Return Answer
 
-# Tech Stack
+### Tech Stack
 
 LLM: Ollama (using llama3)
 
@@ -28,7 +28,7 @@ Agent Logic: LangGraph
 
 Frontend: Streamlit
 
-# 1. Setup & Installation
+### 1. Setup & Installation
 
 Install Ollama:
 You must have Ollama installed and running on your local machine.
@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 (Note: You will need to create a requirements.txt file. Based on your scripts, it should include langchain, langchain-chroma, langchain-ollama, langgraph, streamlit)
 
-# 2. Ingestion (Mandatory First Step)
+### 2. Ingestion (Mandatory First Step)
 
 Before running any system, you must create the vector database from your legal documents.
 
@@ -61,7 +61,7 @@ python ingest.py
 
 This will create the legal_chroma_db directory containing the vector embeddings.
 
-# 3. How to Run the Systems
+### 3. How to Run the Systems
 
 You can run each system individually from the command line or use the comparison app.
 
@@ -86,7 +86,7 @@ This is the main evaluation tool. It runs both System A and System B on the same
 streamlit run app_comparison.py
 
 
-# Example Test Queries
+### Example Test Queries
 
 You can use the following questions (from rag_test_suite.md) to test the performance of both systems in the app_comparison.py interface.
 
