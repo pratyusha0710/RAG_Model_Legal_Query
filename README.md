@@ -90,7 +90,7 @@ streamlit run app_comparison.py
 
 You can use the following questions (from rag_test_suite.md) to test the performance of both systems in the app_comparison.py interface.
 
-Specific Factual Questions (Baseline)
+### Specific Factual Questions (Baseline)
 
 What is Article 17 of the Constitution?
 
@@ -98,7 +98,7 @@ What does Article 21A guarantee?
 
 What is the procedure for the impeachment of the President as described in Article 61?
 
-Vague or Ambiguous Questions (To test System B's refinement)
+### Vague or Ambiguous Questions (To test System B's refinement)
 
 What does the constitution say about equality?
 
@@ -106,7 +106,7 @@ What are the duties of the government?
 
 Tell me about the powers of "the State".
 
-"Trick" or Nuanced Questions
+### "Trick" or Nuanced Questions
 
 What happens to my Fundamental Rights during a Proclamation of Emergency?
 
@@ -114,7 +114,7 @@ Can Parliament make a law on a subject in the State List?
 
 What is the right to property?
 
-Out-of-Scope Questions (To test resilience)
+### Out-of-Scope Questions (To test resilience)
 
 What is the penalty for theft under the Indian Penal Code?
 
