@@ -1,4 +1,4 @@
-RAG-Based Legal Query Assistant
+##RAG-Based Legal Query Assistant
 
 This project investigates and compares two different Retrieval-Augmented Generation (RAG) architectures for answering questions based on legal documents. The primary goal is to analyze the trade-offs between a "Naive RAG" system and a more complex "Agentic RAG" system that includes a self-correction loop.
 
